@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>My first Weeks project</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo">
+                MELODY<br>
+                SPRING<br>
+                CERAMICS<br>
+            </div>
+        </a>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">PROJECTS</a>
+            <a href="">CONTACT</a>
+
+        </nav>
+    </header>
+
+
+
+    <section>
+        <div class="myForm">
+            <form class="contactForm">
+                <h2>Contact me here: </h2>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message"></textarea>
+                <br>
+                <p>What biscuit do you like best?
+                    <img src="/images/biscuit.png" alt="A picture of some biscuits" style="width:30px;height:30px;">
+                </p>
+                <input type="radio" id="html" name="fav_biscuit" value="bourbon">
+                <label for="bourbon">Bourbon</label><br>
+                <input type="radio" id="html" name="fav_biscuit" value="custardCream">
+                <label for="custardCream">Custard Cream</label><br>
+                <input type="radio" id="html" name="fav_biscuit" value="digestive">
+                <label for="digestive">Digestive</label><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <img src="images/logo.png" alt="small version of the logo" />
+        <span>
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            MELODY SPRING CERAMICS
+        </span>
+    </footer>
+</body>
+
+</html>
