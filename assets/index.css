@@ -60,7 +60,7 @@ nav a:hover {
 
 #aboutMe {
     background-color: #75dddd;
-    font-family: "Roboto", sans-serif color: #172a3a;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
     font-size: 20px;
     color: #172a3a;
 
@@ -68,7 +68,7 @@ nav a:hover {
 
 #projects {
     background-color: #318b8b;
-    font-family: "Roboto", sans-serif color: #172a3a;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
     font-size: 20px;
     color: #172a3a;
 }
@@ -78,7 +78,7 @@ nav a:hover {
 .myForm {
     width: 100%;
     display: block;
-    font-family: "Roboto", sans-serif color: #172a3a;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
     background-color: #75dddd;
