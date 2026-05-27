@@ -35,12 +35,13 @@ header a {
     color: #94c4cb;
 }
 
+
 nav {
     position: absolute;
     top: 0;
     right: 0;
     padding: 20px;
-
+    /* optional spacing */
     text-align: right;
 }
 
@@ -59,7 +60,20 @@ nav a:hover {
     transform: scale(1.2);
 }
 
+#aboutMe {
+    background-color: #75dddd;
+    font-family: "Roboto", sans-serif color: #172a3a;
+    font-size: 20px;
+    color: #172a3a;
 
+}
+
+#projects {
+    background-color: #318b8b;
+    font-family: "Roboto", sans-serif color: #172a3a;
+    font-size: 20px;
+    color: #172a3a;
+}
 
 
 
@@ -71,8 +85,6 @@ nav a:hover {
     font-weight: bold;
     background-color: #75dddd;
     padding: 30px;
-
-
 }
 
 
@@ -112,11 +124,9 @@ footer {
 
 
 
-
 footer img {
     width: 50px;
     display: inline-block;
     vertical-align: middle;
     margin: 0 10px 0 0;
-    /* remove the top margin */
 }
