@@ -10,7 +10,7 @@ header {
     height: 200px;
     padding: 20px;
     background: #508991;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 header a {
@@ -95,4 +95,28 @@ nav a:hover {
     border-radius: 10px;
     width: 100px;
     cursor: pointer;
+}
+
+footer {
+    display: block;
+    padding-top: 20px;
+    background-color: #508991;
+    color: #172a3a;
+    height: 70px;
+    width: 100%;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+
+footer img {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    /* remove the top margin */
 }
