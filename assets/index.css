@@ -18,7 +18,7 @@ header a {
 }
 
 .logo {
-    background: url(images/MSC\ Vector\ Mask.svg) no-repeat;
+    background: url("/assets/images/MSC\ Vector\ Mask.svg") no-repeat;
     height: 100px;
     width: 100px;
     background-size: 100px;
