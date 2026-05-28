@@ -66,14 +66,68 @@ nav a:hover {
 
 }
 
+
+
+.projectBox {
+    display: inline-block;
+    /* This puts the projects side by side */
+    width: 30%;
+    min-height: 550px;
+    /* Ensures boxes are the same size */
+    min-width: 250px;
+    vertical-align: top;
+    margin: 20px;
+    text-align: justify;
+    /* Justifys the text so it looks nice */
+    border: 3px solid #172a3a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+
+
+}
+
+.projectBox img {
+    display: block;
+    margin: 0 auto 15px auto;
+    /* This centres the image on the page */
+    width: 250px;
+    /* THis make the image the same size */
+    height: 250px;
+    border: 2px solid #172a3a;
+    box-shadow: 8px 8px 0 #2f4e69;
+    ;
+
+}
+
 #projects {
+    text-align: center;
+    /* This centres the inline-block projectBlocks*/
     background-color: #318b8b;
     font-family: "Roboto", 'Times New Roman', Times, serif;
     font-size: 20px;
     color: #172a3a;
 }
 
+#projects h2 {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #172a3a;
+    padding-top: 20px;
+}
 
+.projectBox h3 {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #172a3a;
+    padding-bottom: 20px;
+}
+
+.projectBox p {
+    padding: 20px;
+}
 
 .myForm {
     width: 100%;
