@@ -6,7 +6,7 @@
 header {
     display: block;
     width: 100%;
-    height: 175px;
+    height: 75px;
     padding: 20px;
     background: #508991;
     padding-bottom: 20px;
@@ -19,12 +19,14 @@ header a {
 .logo {
     background: url("/assets/images/MSC\ Vector\ Mask.svg") no-repeat;
     height: 100px;
-    width: 100px;
+    width: auto;
     background-size: 100px;
     font-family: "Figtree", 'Times New Roman', Times, serif;
     font-size: 48px;
     padding-left: 100px;
     color: #172a3a;
+
+
     text-shadow: 3px 3px black;
     transition: .3s;
 }
@@ -224,6 +226,21 @@ nav a:hover {
     color: #172a3a;
 }
 
+label[for="name"]::before {
+    content: "🙋‍♀️ ";
+}
+
+label[for="phone"]::before {
+    content: "☎️ ";
+}
+
+label[for="email"]::before {
+    content: "📧 ";
+}
+
+label[for="message"]::before {
+    content: "💭 ";
+}
 
 #leftCol,
 #rightCol {
@@ -261,7 +278,7 @@ footer {
     padding-top: 20px;
     background-color: #508991;
     color: #172a3a;
-    height: 70px;
+    height: 75px;
     width: 100%;
     font-family: "Figtree", 'Times New Roman', Times, serif;
     font-weight: bold;
