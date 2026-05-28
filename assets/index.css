@@ -74,20 +74,18 @@ nav a:hover {
 .aboutImage,
 .aboutText {
     display: inline-block;
-    /* sit side by side */
+    /* Makes the image and text sit side by side */
     vertical-align: top;
-    /* align at the top */
-    width: 45%;
-    /* adjust as needed */
+    /* And align at the top */
     text-align: left;
-    /* normal text alignment */
+    /* Aligns the text */
     margin: 20px;
 }
 
 .aboutImage img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+    width: 40%;
+    width: 300px;
+    height: 200px;
     display: block;
     margin: 0 auto;
     border: 3px solid #172a3a;
@@ -95,28 +93,25 @@ nav a:hover {
 
 }
 
-
-.aboutImageBox,
-.aboutTextBox {
-    display: inline-block;
-    /* sit side by side */
-    vertical-align: top;
-    /* align at the top */
-    width: 45%;
-    /* adjust as needed */
-    text-align: left;
-    /* normal text alignment */
-    margin: 20px;
+.aboutText {
+    width: 70%;
 }
 
-.aboutImageBox img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #172a3a;
-    border-radius: 10px;
+.aboutText p {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #172a3a;
+    text-align: justify;
+}
+
+.aboutText strong {
+    color: #2f4e69;
+    font-size: 25px;
+}
+
+.aboutImage h3 {
+    padding-top: 10px;
+    text-align: center;
 }
 
 .projectBox {
