@@ -70,10 +70,9 @@
                 and hone my existing skills. I found that people liked my distinctive style, so in mid-2022 decided to
                 take a chance
                 and convert my interest into a small business. Now my success is in the hands of the kiln gods –
-                hopefully
-                they
-                will
-                be kind.
+                hopefully they will be kind. Send me an <a
+                    href="mailto:messagemelody@icloud.com">messagemelody@icloud.com</a>
+                or use the contact form below.
             </p>
         </div>
     </section>
@@ -118,32 +117,45 @@
 
     <section>
         <div class="myForm">
-            <form class="contactForm">
-                <h2>Contact me here: </h2>
-                <br>
-                <label for="name">Name:</label>
-                <input type="text" id="name">
-                <label for="phone">Phone number:</label>
-                <input type="tel" id="phone">
-                <label for="email">Email:</label>
-                <input type="text" id="email">
-                <br>
-                <br>
-                <label for="message">Message:</label>
-                <textarea id="message"></textarea>
-                <br>
-                <p>What biscuit do you like best?
-                    <img src="assets/images/biscuit.png" alt="A picture of some biscuits"
-                        style="width:30px;height:30px;">
-                </p>
-                <input type="radio" id="html" name="fav_biscuit" value="bourbon">
-                <label for="bourbon">Bourbon</label><br>
-                <input type="radio" id="html" name="fav_biscuit" value="custardCream">
-                <label for="custardCream">Custard Cream</label><br>
-                <input type="radio" id="html" name="fav_biscuit" value="digestive">
-                <label for="digestive">Digestive</label><br>
 
-                <button type="submit">Submit</button>
+            <form class="contactForm">
+                <div id="formHeading">
+                    <h2>Contact me here:</h2>
+                </div>
+                <div id="formRow1">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email">
+                </div>
+                <div id="formRow2">
+                    <div id="leftCol">
+                        <label for="message">Message:</label>
+                        <textarea id="message"></textarea>
+                    </div>
+
+                    <div id="rightCol">
+                        <p>What biscuit do you like best?
+                            <img src="assets/images/biscuit.png" alt="A picture of some biscuits"
+                                style="width:30px;height:30px;">
+                        </p>
+
+                        <input type="radio" id="bourbon" name="fav_biscuit" value="bourbon">
+                        <label for="bourbon">Bourbon</label><br>
+
+                        <input type="radio" id="custardCream" name="fav_biscuit" value="custardCream">
+                        <label for="custardCream">Custard Cream</label><br>
+
+                        <input type="radio" id="digestive" name="fav_biscuit" value="digestive">
+                        <label for="digestive">Digestive</label><br>
+                    </div>
+                </div>
+
+                <div id="formRow3">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
     </section>
